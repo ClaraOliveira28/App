@@ -1,8 +1,15 @@
-import { registerRootComponent } from 'expo';
-
-import App from './App';
-
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+export default {
+  COLORS: {
+    PRIMARY: '#F97316', 
+    BACKGROUND: '#F8FAFC',
+    TEXT_MAIN: '#1E293B',
+    TEXT_MUTED: '#64748B',
+    WHITE: '#FFFFFF',
+    BORDER: '#CBD5E1',
+    SHADOW: '#0F172A',
+  },
+  FONTS: {
+    REGULAR: 'Roboto_400Regular',
+    BOLD: 'Roboto_700Bold',
+  }
+};
